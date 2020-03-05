@@ -9,3 +9,6 @@ DOMAIN-SUFFIX,fir3beast.net
 DOMAIN-SUFFIX,mocloudplus.com
 DOMAIN-SUFFIX,mocloud.us
 DOMAIN-SUFFIX,cccat.io
+
+# 规则补漏
+DOMAIN-SUFFIX,forms.gle

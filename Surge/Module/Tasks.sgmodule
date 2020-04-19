@@ -1,0 +1,22 @@
+#!name=Tasks
+#!desc=该模块适用于个人收集的常用签到脚本。建议本地安装以便自定义修改签到时间。
+#!system=ios
+
+[Script]
+# > 京东
+JD_DailyBonus.js = type=cron,cronexp=50 9 * * *,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js,script-update-interval=0
+# > 吾爱破解
+52pojie.js = type=cron,cronexp=13 0 * * *,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/52pojieDailyBonus/52pojie.js,script-update-interval=0
+# 网易云音乐
+# 浏览器访问并登录: https://music.163.com/m/login
+neteasemusic.js = type=cron,cronexp=5 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/neteasemusic/quanx/neteasemusic.js,script-update-interval=0
+# 网易新闻
+# 打开 APP 然后手动签到 1 次
+neteasenews.js = type=cron,cronexp=7 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/neteasenews/neteasenews.js,script-update-interval=0
+# 什么值得买
+# 浏览器访问并登录: https://zhiyou.smzdm.com/user/login
+smzdm.js = type=cron,cronexp=9 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/smzdm/quanx/smzdm.js,script-update-interval=0
+# 隔壁西站签到
+Checkin_3.js = type=cron,cronexp=15 0 * * *,script-path=Checkin_3.js,script-update-interval=0
+Checkin_3.js = type=cron,cronexp=15 6 * * *,script-path=Checkin_3.js,script-update-interval=0
+Checkin_3.js = type=cron,cronexp=15 18 * * *,script-path=Checkin_3.js,script-update-interval=0

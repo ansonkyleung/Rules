@@ -1,0 +1,8 @@
+#!name=URL Rewrite+
+#!desc=增加一些有用的 URL Rewrite
+
+[URL Rewrite]
+^(http|https)://geolite.maxmind.com/download/geoip/database/GeoLite2-Country.tar.gz https://download.maxmind.com/app/geoip_download?edition_id=GeoLite2-Country&license_key=4FCHjQbTPVBZT9G2&suffix=tar.gz 302
+
+[MITM]
+hostname = %INSERT% *.maxmind.com

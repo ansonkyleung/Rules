@@ -1,0 +1,13 @@
+#!name=unlock vip
+#!desc=一些App的本地VIP。
+#!system=ios
+
+[Script]
+# > VSCO VIP
+http-response ^https?:\/\/vsco\.co\/api\/subscriptions\/2.1\/user-subscriptions\/ requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/vsco.js
+
+# > 网易蜗牛读书 VIP
+http-response ^https?:\/\/p\.du\.163\.com\/gain\/readtime\/info\.json requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/wnyd.js
+
+[MITM]
+hostname = %APPEND% vsco.co, p.du.163.com

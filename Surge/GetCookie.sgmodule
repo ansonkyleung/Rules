@@ -4,13 +4,13 @@
 
 [Script]
 
-Get-Cookie.js = type=http-request,pattern=https:\/\/www\.52pojie\.cn\/home\.php\?,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/52pojieDailyBonus/Get-Cookie.js
+http-request https:\/\/www\.52pojie\.cn\/home\.php\? script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/52pojieDailyBonus/Get-Cookie.js
 
-JD_DailyBonus.js = type=http-request,pattern=https:\/\/api\.m\.jd\.com\/client\.action.*functionId=signBean,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js
+http-request https:\/\/api\.m\.jd\.com\/client\.action.*functionId=signBean max-size=0,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js
 
-neteasemusic.cookie.js = type=http-request,pattern=^https?:\/\/music\.163\.com\/?.? script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/neteasemusic/neteasemusic.cookie.js
+http-request ^https?:\/\/music\.163\.com\/?.? script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/neteasemusic/neteasemusic.cookie.js
 
-neteasenews.js = type=http-request,pattern=^https:\/\/c\.m\.163\.com\/uc\/api\/sign\/v2\/commit script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/neteasenews/neteasenews.cookie.js,requires-body=true
+http-request ^https:\/\/c\.m\.163\.com\/uc\/api\/sign\/v2\/commit script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/neteasenews/neteasenews.cookie.js,requires-body=true
 
 [MITM]
 hostname = %APPEND% www.52pojie.cn, api.m.jd.com, music.163.com, *.m.163.com

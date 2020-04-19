@@ -1,4 +1,4 @@
-#!name=Script+
+#!name=Script +
 #!desc=该模块为脚本合集，用于Remove Ads + unlock vip。收集自: NobyDa、yichahucha、Choler、onewayticket、langkhach等等，需要配置 CA 证书并启用 MitM 开关。您可以在使用后手动将本模块禁用，以免产生不必要的MITM。
 #!system=ios
 

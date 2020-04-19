@@ -1,0 +1,18 @@
+#!name=Script+
+#!desc=该模块为脚本合集，用于Remove Ads + unlock vip。收集自: NobyDa、yichahucha、Choler、onewayticket、langkhach等等，需要配置 CA 证书并启用 MitM 开关。您可以在使用后手动将本模块禁用，以免产生不必要的MITM。
+#!system=ios
+
+[Script]
+# > VSCO VIP
+http-response ^https?:\/\/vsco\.co\/api\/subscriptions\/2.1\/user-subscriptions\/ requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/vsco.js
+# > 网易蜗牛读书 VIP
+http-response ^https?:\/\/p\.du\.163\.com\/gain\/readtime\/info\.json requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/wnyd.js
+# > NOMO
+nomo.js = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/langkhach270389/Scripting/master/nomo.js,script-update-interval=0,type=http-response,pattern=^https:\/\/nomo\.dafork\.com\/api\/v2\/iap\/ios_product_list
+# > 91短视频
+91.js = requires-body=1,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/91.js,type=http-response,pattern=“^https?:\/\/.+\.(my10api|(.*91.*))\.(com|tips|app|xyz)(:\d{2,5})?\/api.php$”
+# 西窗烛 （By 黑黑酱）
+xcz.js = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/xcz.js,type=http-response,pattern=^https:\/\/avoscloud\.com\/1\.1\/users\/
+
+[MITM]
+hostname = %APPEND% vsco.co, p.du.163.com, nomo.dafork.com, *.my10api.com, avoscloud.com

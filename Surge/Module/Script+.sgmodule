@@ -7,9 +7,6 @@
 http-response ^https?:\/\/vsco\.co\/api\/subscriptions\/2.1\/user-subscriptions\/ requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/vsco.js
 # > 网易蜗牛读书 VIP
 http-response ^https?:\/\/p\.du\.163\.com\/gain\/readtime\/info\.json requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/wnyd.js
-# > 西窗烛 （By 黑黑酱）
-xcz.js = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/xcz.js,type=http-response,pattern=^https:\/\/avoscloud\.com\/1\.1\/users\/
-# > XMind思维导图
-XMind.js = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/XMind.js,type=http-response,pattern=https:\/\/www\.xmind\.cn\/\_res\/devices
+
 [MITM]
-hostname = %APPEND% vsco.co, p.du.163.com, avoscloud.com, www.xmind.cn
+hostname = %APPEND% vsco.co, p.du.163.com

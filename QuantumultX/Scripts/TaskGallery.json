@@ -1,0 +1,15 @@
+{
+    "name":"HotKids",
+    "description":"Crontab Task Gallery",
+    "task":[
+        "0 1,6 * * * https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js, tag=京东, img-url=https://raw.githubusercontent.com/HotKids/Rules/master/Quantumult/X/Images/Task/jd.png",
+        "10 6 * * 1 https://gitee.com/lxk0301/scripts/raw/master/jd_unsubscribe.js, tag=取关京东店铺及商品, img-url=https://raw.githubusercontent.com/HotKids/Rules/master/Quantumult/X/Images/Task/jd.png",
+        "30 9 * * * https://gitee.com/lxk0301/scripts/raw/master/jd_bean_change.js, tag=京豆变动通知, img-url=https://raw.githubusercontent.com/HotKids/Rules/master/Quantumult/X/Images/Task/jd.png",
+        "3 5 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/jddj/jddj.js, tag=京东到家, img-url=https://raw.githubusercontent.com/HotKids/Rules/master/Quantumult/X/Images/Task/jddj.png",
+        "8 5 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/bilibili/bilibili.js, tag=哔哩哔哩, img-url=https://raw.githubusercontent.com/HotKids/Rules/master/Quantumult/X/Images/Task/bilibili.png",
+        "8 5 * * 1 https://raw.githubusercontent.com/chavyleung/scripts/master/bilibili/bilibili.silver2coin.js, tag=B站银瓜子转硬币, img-url=https://raw.githubusercontent.com/HotKids/Rules/master/Quantumult/X/Images/Task/bilibiliblue.png",
+        "10 5 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/neteasemusic/quanx/neteasemusic.js, tag=网易云音乐, img-url=https://raw.githubusercontent.com/HotKids/Rules/master/Quantumult/X/Images/Task/neteasemusic.png",
+        "13 5 * * * https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_checkin.js, tag=什么值得买, img-url=https://raw.githubusercontent.com/HotKids/Rules/master/Quantumult/X/Images/Task/smzdm.png",
+        "13 5 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/smzdm/quanx/smzdm.js, tag=什么值得买, img-url=https://raw.githubusercontent.com/HotKids/Rules/master/Quantumult/X/Images/Task/smzdm.png"
+    ]
+}

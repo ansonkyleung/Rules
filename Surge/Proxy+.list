@@ -4,10 +4,8 @@ DOMAIN,p14-buy.itunes.apple.com
 
 # 常用机场
 DOMAIN,pro.crosswall.cc
+DOMAIN,panel.nodecat.io
 DOMAIN-SUFFIX,v2bz.com
-DOMAIN-SUFFIX,fir3beast.net
-DOMAIN-SUFFIX,mocloudplus.com
-DOMAIN-SUFFIX,mocloud.us
 DOMAIN-SUFFIX,cccat.io
 
 # 规则补漏

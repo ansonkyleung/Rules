@@ -14,7 +14,7 @@
 获取什么值得买 Cookie = type=http-request,pattern=^https:\/\/www\.smzdm\.com\/?.?,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/smzdm/smzdm.cookie.js
 
 # > 加油广东
-# 打开 APP 然后手动签到 1 次, 系统提示: 获取Cookie: 成功。最后就可以把第 1 条脚本注释掉。运行一次脚本, 如果提示重复签到, 那就算成功了!
+# 打开 APP 然后手动签到 1 次, 系统提示: 获取Cookie: 成功。然后运行一次脚本, 如果提示重复签到, 那就算成功了!
 http-request ^https:\/\/m.gdoil.cn\/webapi\/usersign\/addusersign script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/gdoil/gdoil.cookie.js
 
 [MITM]

@@ -3,9 +3,9 @@
     "name":"Qx Task",
     "description":"自定义薅！",
     "task":[
-        "10 10 * * * https://raw.githubusercontent.com/shufflewzc/faker2/main/jd_speed_sign.js, tag=京东极速版, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png",
-        "20 0,22 * * * https://raw.githubusercontent.com/Semporia/Scripts/main/jd_speed_redpocke.js, tag=京东极速版红包, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png",
-        "10 0,20 * * * https://raw.githubusercontent.com/Semporia/Scripts/main/jd_necklace.js, tag=点点券 , img-url=https://raw.githubusercontent.com/Semporia/Scripts/main/API-Icon/jd_necklace.png",
+        "10 10 * * * https://raw.githubusercontent.com/he1pu/JDHelp/main/jd_speed_sign.js, tag=京东极速版, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png",
+        "20 0,22 * * * https://raw.githubusercontent.com/he1pu/JDHelp/main/jd_speed_redpocke.js, tag=京东极速版红包, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png",
+        "10 0,20 * * * https://raw.githubusercontent.com/he1pu/JDHelp/main/jd_necklace_new.js, tag=点点券 , img-url=https://raw.githubusercontent.com/Semporia/Scripts/main/API-Icon/jd_necklace.png",
         "11 10 * * * https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js, tag=京东 , img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png" 
     ]
 }

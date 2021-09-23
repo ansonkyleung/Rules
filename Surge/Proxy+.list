@@ -1,7 +1,4 @@
 # > CUSTOM
-# App Store 下载卡转圈
-DOMAIN,p14-buy.itunes.apple.com
-
 # 常用机场
 DOMAIN,pro.crosswall.cc
 DOMAIN,panel.nodecat.io

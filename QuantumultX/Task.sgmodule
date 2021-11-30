@@ -10,6 +10,9 @@
         "5 * * * * https://raw.githubusercontent.com/he1pu/JDHelp/main/jd_cfd_mooncake.js, tag=财富岛合珍珠, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jxcfd.png",
         "15 1,5 * * * https://raw.githubusercontent.com/he1pu/JDHelp/main/jd_connoisseur.js, tag=内容鉴赏官, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png",
         "20 1,8 * * * https://raw.githubusercontent.com/he1pu/JDHelp/main/jd_jxSign.js, tag=京喜签到, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jxcfd.png",
+        "31 1,7 * * * https://raw.githubusercontent.com/he1pu/JDHelp/main/jd_xmf.js, tag=京东小魔方, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png",
+        "0 0 * * * https://raw.githubusercontent.com/he1pu/JDHelp/main/jd_xmf_exchange.js, tag=5魔方兑换, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jxcfd.png",
+        "55 6 * * * https://raw.githubusercontent.com/he1pu/JDHelp/main/jd_unsubscriLive.js, tag=取关所有主播, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png",
         "11 10 * * * https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js, tag=京东 , img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png" 
     ]
 }

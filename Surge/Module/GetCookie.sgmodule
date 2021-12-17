@@ -16,11 +16,11 @@
 # > 什么值得买
 # 登录: https://zhiyou.smzdm.com/user/login
 # 打开浏览器访问: https://www.smzdm.com
-获取什么值得买 Cookie = type=http-request,pattern=^https:\/\/www\.smzdm\.com\/?.?,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/smzdm/smzdm.cookie.js
+获取什么值得买Cookie = type=http-request,requires-body=1,pattern=^https:\/\/www\.smzdm\.com\/?.?,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/smzdm/smzdm.cookie.js
 
 # > 加油广东
 # 打开 APP 然后手动签到 1 次, 系统提示: 获取Cookie: 成功。然后运行一次脚本, 如果提示重复签到, 那就算成功了!
-http-request ^https:\/\/m.gdoil.cn\/webapi\/usersign\/addusersign script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/gdoil/gdoil.cookie.js
+获取加油广东Cookie = type=http-request,requires-body=1,pattern=^https:\/\/m.gdoil.cn\/webapi\/usersign\/addusersign,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/gdoil/gdoil.cookie.js
 
 [MITM]
 hostname = %APPEND% ms.jr.jd.com, me-api.jd.com, api.m.jd.com, *.smzdm.com, m.gdoil.cn

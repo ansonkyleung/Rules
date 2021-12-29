@@ -13,5 +13,8 @@ http-response ^https?://(sdk|wb)app\.uve\.weibo\.com(/interface/sdk/sdkad.php|/w
 # 泼辣修图解锁特权 (需恢复购买)
 http-response ^https:\/\/api\.polaxiong\.com\/v1\/payments\/appleiap\/receipts\/confirmation requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Polarr.js
 
+# 彩云天气SVIP
+http-response https?:\/\/biz\.caiyunapp\.com\/(membership_rights|v2\/user) requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/JQWS/GuangZhuiQuanX/main/rewrite/caiyun/caiyun_svip.js
+
 [MITM]
-hostname = %APPEND% vsco.co, api.revenuecat.com, api.weibo.cn, mapi.weibo.com, *.uve.weibo.com, api.polaxiong.com
+hostname = %APPEND% vsco.co, api.revenuecat.com, api.weibo.cn, mapi.weibo.com, *.uve.weibo.com, api.polaxiong.com, biz.caiyunapp.com

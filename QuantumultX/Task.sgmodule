@@ -5,6 +5,7 @@
         "10 0,20 * * * https://raw.githubusercontent.com/lanmuz/zero205/main/jd_necklace.js, tag=点点券 , img-url=https://raw.githubusercontent.com/Semporia/Scripts/main/API-Icon/jd_necklace.png",
         "30 * * * * https://raw.githubusercontent.com/he1pu/JDHelp/main/jd_cfd_loop.js, tag=京喜财富岛热气球, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jxcfd.png",
         "5 * * * * https://raw.githubusercontent.com/he1pu/JDHelp/main/jd_cfd_mooncake.js, tag=财富岛合珍珠, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jxcfd.png",
+        "59 11,12,23 * * * https://github.com/he1pu/JDHelp/raw/main/backUp/jd_cfdtx.js, tag=京喜财富岛提现, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jxcfd.png",
         "15 1,5 * * * https://raw.githubusercontent.com/he1pu/JDHelp/main/jd_connoisseur.js, tag=内容鉴赏官, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png",
         "20 1,8 * * * https://raw.githubusercontent.com/he1pu/JDHelp/main/jd_jxSign.js, tag=京喜签到, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jxcfd.png",
         "5 3-21/3 * * * https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_fruit.js, tag=东东农场2, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jdnc.png",

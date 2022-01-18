@@ -1,10 +1,13 @@
 #!name=Script +
-#!desc=该模块为脚本合集，用于Remove Ads + unlock vip。收集自: NobyDa、yichahucha、Choler、onewayticket、langkhach、nzw9314等等，需要配置 CA 证书并启用 MitM 开关。
+#!desc=该模块为脚本合集，用于Remove Ads、unlock vip等。收集自网络，需要配置 CA 证书并启用 MitM 开关。
 #!system=ios
 
 [Script]
 # VSCO VIP
 http-response ^https:\/\/(api\.revenuecat\.com\/v\d\/subscribers|vsco\.co\/api\/subscriptions\/\d\.\d\/user-subscriptions)\/ requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/vsco.js
 
+#使用网页版百度搜索,在搜索结果中点击关键词时防跳转AppStore
+百度防跳转 = type=http-response,pattern=^https:\/\/boxer\.baidu\.com\/scheme\?scheme,script-path=https://raw.githubusercontent.com/app2smile/rules/master/js/baidu-no-redirect.js
+
 [MITM]
-hostname = %APPEND% vsco.co, api.revenuecat.com
+hostname = %APPEND% vsco.co, api.revenuecat.com, boxer.baidu.com

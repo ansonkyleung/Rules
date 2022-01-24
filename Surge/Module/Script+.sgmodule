@@ -19,5 +19,9 @@ http-response ^https:\/\/(api\.revenuecat\.com\/v\d\/subscribers|vsco\.co\/api\/
 # > 美图秀秀
 美图秀秀 = type=http-response,pattern= ^https?:\/\/(h5|api)\.xiuxiu\.meitu\.com\/v\d\/(h\d\/vip|vip|user)\/, requires-body=1,max-size=0,script-path= https://raw.githubusercontent.com/iEwha/Profiles/master/Script/mtxx.js
 
+# > 菜谱大全
+菜谱大全1 = type=http-response,pattern= ^https?:\/\/apiios_dq\.xiangha\.com\/v\d\/, requires-body=1,max-size=0,script-path= https://raw.githubusercontent.com/I-am-R-E/QuantumultX/main/JavaScript/CaiPuDaQuan.js
+菜谱大全2 = type=http-response,pattern= ^https?:\/\/appweb_dq\.xiangha\.com\/center\/pay\/home, requires-body=1,max-size=0,script-path= https://raw.githubusercontent.com/I-am-R-E/QuantumultX/main/JavaScript/CaiPuDaQuan.js
+
 [MITM]
-hostname = %APPEND% vsco.co, api.revenuecat.com, boxer.baidu.com, lchttpapi.xczim.com, baimiao.uzero.cn, api.xiuxiu.meitu.com, h5.xiuxiu.meitu.com
+hostname = %APPEND% vsco.co, api.revenuecat.com, boxer.baidu.com, lchttpapi.xczim.com, baimiao.uzero.cn, api.xiuxiu.meitu.com, h5.xiuxiu.meitu.com, apiios_dq.xiangha.com, appweb_dq.xiangha.com, 101.200.225.157

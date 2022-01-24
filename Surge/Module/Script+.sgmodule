@@ -10,8 +10,5 @@ http-response ^https:\/\/(api\.revenuecat\.com\/v\d\/subscribers|vsco\.co\/api\/
 #使用网页版百度搜索,在搜索结果中点击关键词时防跳转AppStore
 百度防跳转 = type=http-response,pattern=^https:\/\/boxer\.baidu\.com\/scheme\?scheme,script-path=https://raw.githubusercontent.com/app2smile/rules/master/js/baidu-no-redirect.js
 
-# > 西窗烛
-西窗烛 = type=http-response,pattern=https://lchttpapi.xczim.com/*,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/xcz.js
-
 [MITM]
-hostname = %APPEND% vsco.co, api.revenuecat.com, boxer.baidu.com, lchttpapi.xczim.com
+hostname = %APPEND% vsco.co, api.revenuecat.com, boxer.baidu.com

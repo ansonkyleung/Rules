@@ -1,5 +1,6 @@
 #!name=URL Rewrite +
 #!desc=一些有用的 URL Rewrite
+#!system=ios
 
 [URL Rewrite]
 # > GeoLite2-Country

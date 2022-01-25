@@ -1,13 +1,13 @@
 #!name=Script +
-#!desc=该模块为脚本合集，用于Remove Ads、unlock vip等。收集自网络，需要配置 CA 证书并启用 MitM 开关。
+#!desc=该模块为脚本合集，用于Remove Ads、Unlock VIP等。收集自网络，需要配置 CA 证书并启用 MitM 开关。
 #!system=ios
 
 [Script]
-# > VSCO VIP
+# > VSCO Membership
 http-response ^https:\/\/(api\.revenuecat\.com\/v\d\/subscribers|vsco\.co\/api\/subscriptions\/\d\.\d\/user-subscriptions)\/ requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/vsco.js
 
 # > 百度防跳转
-#使用网页版百度搜索,在搜索结果中点击关键词时防跳转AppStore
+# 使用网页版百度搜索,在搜索结果中点击关键词时防跳转 AppStore
 百度防跳转 = type=http-response,pattern=^https:\/\/boxer\.baidu\.com\/scheme\?scheme,script-path=https://raw.githubusercontent.com/app2smile/rules/master/js/baidu-no-redirect.js
 
 # > 西窗烛会员 
@@ -16,7 +16,7 @@ http-response ^https:\/\/(api\.revenuecat\.com\/v\d\/subscribers|vsco\.co\/api\/
 # > 白描黄金会员
 白描 = type=http-response,pattern=^https?:\/\/baimiao\.uzero\.cn\/api\/v\d\.user\/appLaunchWithUser$,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/iEwha/Profiles/master/Script/baimiao.js
 
-# > 美图秀秀
+# > 美图秀秀粉钻VIP
 美图秀秀 = type=http-response,pattern= ^https?:\/\/(h5|api)\.xiuxiu\.meitu\.com\/v\d\/(h\d\/vip|vip|user)\/, requires-body=1,max-size=0,script-path= https://raw.githubusercontent.com/iEwha/Profiles/master/Script/mtxx.js
 
 # > AdGuard Premium

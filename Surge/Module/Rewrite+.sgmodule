@@ -2,7 +2,15 @@
 #!desc=增加一些有用的 URL Rewrite
 
 [URL Rewrite]
+# > GeoLite2-Country
 ^(http|https)://geolite.maxmind.com/download/geoip/database/GeoLite2-Country.tar.gz https://download.maxmind.com/app/geoip_download?edition_id=GeoLite2-Country&license_key=4FCHjQbTPVBZT9G2&suffix=tar.gz 302
+
+# > 车来了
+^https?:\/\/api.chelaile.net.cn\/adpub\/ - reject
+^https?:\/\/api.chelaile.net.cn\/goocity\/advert\/ - reject
+^https?:\/\/atrace.chelaile.net.cn\/adpub\/ - reject
+^https?:\/\/atrace.chelaile.net.cn\/exhibit\?&adv_image - reject
+^https?:\/\/pic1.chelaile.net.cn\/adv\/ - reject
 
 [MITM]
 hostname = %INSERT% *.maxmind.com

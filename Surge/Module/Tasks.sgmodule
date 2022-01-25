@@ -1,8 +1,6 @@
 #!name=Tasks
 #!desc=该模块适用于个人收集的常用脚本。建议本地安装以便自定义修改签到时间。目前主要是京东脚本，请注意脚本时效。
 
-# Task&Cookies模块配置 
-
 [Script]
 京东资产变动通知 = type=cron,cronexp="2 9 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/he1pu/JDHelp/main/jd_bean_change.js
 领京豆额外奖励 = type=cron,cronexp="10 7 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/he1pu/JDHelp/main/jd_bean_home.js

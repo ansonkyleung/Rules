@@ -10,7 +10,6 @@
         "20 1,8 * * * https://raw.githubusercontent.com/he1pu/JDHelp/main/jd_jxSign.js, tag=京喜签到, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jxcfd.png",
         "5 3-21/3 * * * https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_fruit.js, tag=东东农场2, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jdnc.png",
         "55 6 * * * https://raw.githubusercontent.com/he1pu/JDHelp/main/jd_unsubscriLive.js, tag=取关所有主播, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png",
-        "18 8,18 * * * https://raw.githubusercontent.com/he1pu/JDHelp/main/jd_jfcz.js, tag=见缝插针, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png",
         "5 0 * * * https://raw.githubusercontent.com/ZCY01/daily_scripts/main/jd/jd_priceProtect.js, tag=京东价格保护, img-url=https://raw.githubusercontent.com/ZCY01/img/master/pricev1.png",
         "11 10 * * * https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js, tag=京东 , img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png" 
     ]

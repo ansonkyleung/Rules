@@ -29,8 +29,5 @@ http-response ^https?:\/\/biz\.caiyunapp\.com\/v\d\/user requires-body=1,max-siz
 http-response ^https?:\/\/server\.yoyiapp\.com\/fimo-user\/apple\/certificate$ requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/yqc007/QuantumultX/master/FiMoCameraProCrack.js
 http-response ^https?:\/\/server\.yoyiapp\.com\/fimo-user\/user$ requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/fimo.js
 
-# > NOMO CAM 解锁订阅
-http-response ^https?:\/\/nomo\.dafork\.com\/api\/v3\/register\/phone_signin$ requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/yqc007/QuantumultX/master/NoMoCamProCrack.js
-
 [MITM]
-hostname = %APPEND% vsco.co, api.revenuecat.com, boxer.baidu.com, lchttpapi.xczim.com, baimiao.uzero.cn, api.xiuxiu.meitu.com, h5.xiuxiu.meitu.com, mobile-api.adguard.com, biz.caiyunapp.com, server.yoyiapp.com, nomo.dafork.com
+hostname = %APPEND% vsco.co, api.revenuecat.com, boxer.baidu.com, lchttpapi.xczim.com, baimiao.uzero.cn, api.xiuxiu.meitu.com, h5.xiuxiu.meitu.com, mobile-api.adguard.com, biz.caiyunapp.com, server.yoyiapp.com

@@ -23,7 +23,7 @@ VSCO = type=http-response,pattern=^https:\/\/api\.revenuecat\.com\/v\d\/subscrib
 http-response ^https:\/\/mobile-api\.adguard\.com\/api\/1\.0\/ios_validate_receipt$ requires-body=1,max-size=-1,script-path=https://raw.githubusercontent.com/iEwha/Profiles/master/Script/adguard.js
 
 # > 彩云天气 SVIP
-http-response ^https?:\/\/biz\.caiyunapp\.com\/(membership_rights|v2\/user) requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/iEwha/Profiles/master/Script/caiyun_svip.js
+http-response ^https?:\/\/biz\.caiyunapp\.com\/v\d\/user requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/I-am-R-E/QuantumultX/main/JavaScript/CaiYunWeather.js
 
 # > FIMO 会员
 http-response ^https?:\/\/server\.yoyiapp\.com\/fimo-user\/apple\/certificate$ requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/yqc007/QuantumultX/master/FiMoCameraProCrack.js

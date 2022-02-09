@@ -28,5 +28,12 @@ http-response ^https?:\/\/server\.yoyiapp\.com\/fimo-user\/apple\/certificate$ r
 # > Varlens Membership
 http-response ^https?:\/\/mid\.zineapi\.com\/@varlens\/api\/user\/info\/ requires-body=1,max-size=0,script-path=https://github.com/ddgksf2013/Cuttlefish/raw/master/Crack/varlens.js
 
+# > 菜谱大全 VIP会员
+http-response ^https?:\/\/apiios_dq\.xiangha\.com\/v\d\/ requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/I-am-R-E/QuantumultX/main/JavaScript/CaiPuDaQuan.js
+http-response ^https?:\/\/appweb_dq\.xiangha\.com\/center\/pay\/home requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/I-am-R-E/QuantumultX/main/JavaScript/CaiPuDaQuan.js
+
+# > 拦截100 VIP
+http-response ^https?:\/\/tagit\.hyhuo\.com\/cypt\/block100\/get_vip_info$ requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/100.js
+
 [MITM]
-hostname = %APPEND% vsco.co, api.revenuecat.com, boxer.baidu.com, lchttpapi.xczim.com, baimiao.uzero.cn, api.xiuxiu.meitu.com, h5.xiuxiu.meitu.com, mobile-api.adguard.com, server.yoyiapp.com, mid.zineapi.com
+hostname = %APPEND% vsco.co, api.revenuecat.com, boxer.baidu.com, lchttpapi.xczim.com, baimiao.uzero.cn, api.xiuxiu.meitu.com, h5.xiuxiu.meitu.com, mobile-api.adguard.com, server.yoyiapp.com, mid.zineapi.com, apiios_dq.xiangha.com, appweb_dq.xiangha.com, 101.200.225.157, tagit.hyhuo.com

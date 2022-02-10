@@ -3,25 +3,25 @@
 #!system=ios
 
 [Script]
-# > VSCO Membership
+# > VSCO Membership by NobyDa
 http-response ^https:\/\/(api\.revenuecat\.com\/v\d\/subscribers|vsco\.co\/api\/subscriptions\/\d\.\d\/user-subscriptions)\/ requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/vsco.js
 
-# > Varlens Membership
+# > Varlens Membership by ddgksf2013
 http-response ^https?:\/\/mid\.zineapi\.com\/@varlens\/api\/user\/info\/ requires-body=1,max-size=0,script-path=https://github.com/ddgksf2013/Cuttlefish/raw/master/Crack/varlens.js
 
-# > FIMO 会员
+# > FIMO 会员 by Hausd0rff
 http-response ^https?:\/\/server\.yoyiapp\.com\/fimo-user\/apple\/certificate$ requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/yqc007/QuantumultX/master/FiMoCameraFVIPCrack.js
 
-# > 西窗烛会员 
+# > 西窗烛会员 by iEwha
 http-response https://lchttpapi.xczim.com/* requires-body=1,max-size=-1,script-path=https://raw.githubusercontent.com/iEwha/Profiles/master/Script/xcz.js
 
-# > 白描黄金会员
+# > 白描黄金会员 by iEwha
 http-response ^https?:\/\/baimiao\.uzero\.cn\/api\/v\d\.user\/appLaunchWithUser$ requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/iEwha/Profiles/master/Script/baimiao.js
 
-# > 拦截100 超级VIP
+# > 拦截100 超级VIP by Hausd0rff
 http-response ^https?:\/\/tagit\.hyhuo\.com\/cypt\/block100\/get_vip_info$ requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/yqc007/QuantumultX/master/Block100FVIPCrack.js
 
-# > Xmind 订阅
+# > Xmind 订阅 by langkhach270389
 http-response https?:\/\/.*\.xmind\..*\/_res\/(devices|user_sub_status|appstore/sub) requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/langkhach270389/Surge-LK/main/scripts/langkhach/xmind.js
 
 [MITM]

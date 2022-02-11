@@ -2,7 +2,7 @@
     "name":"Task Gallery",
     "description":"自用京东任务",
     "task":[
-        "11 10 * * * https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js, tag=京东签到 , img-url=https://raw.githubusercontent.com/NobyDa/mini/master/Color/jd.png" 
+		"11 10 * * * https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js, tag=京东签到 , img-url=https://raw.githubusercontent.com/NobyDa/mini/master/Color/jd.png" 
 		"2 9 * * * https://raw.githubusercontent.com/gys619/Absinthe/main/jd_bean_change.js, tag=京东资产变动通知 , img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png" 
 		"23 1,12,22 * * * https://raw.githubusercontent.com/gys619/Absinthe/main/jd_bean_home.js, tag=领京豆额外奖励 , img-url=https://raw.githubusercontent.com/58xinian/icon/master/jd_bean_home.png" 
 		"10 7 * * * https://raw.githubusercontent.com/gys619/Absinthe/main/jd_car.js, tag=京东汽车 , img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png" 

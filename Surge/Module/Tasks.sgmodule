@@ -8,7 +8,6 @@
 京东汽车 = type=cron,cronexp="10 7 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/gys619/Absinthe/main/jd_car.js
 京东汽车兑换 = type=cron,cronexp="0 0 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/gys619/Absinthe/main/jd_car_exchange.js
 签到领现金 = type=cron,cronexp="2 0-23/4 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/gys619/Absinthe/main/jd_cash.js
-领现金兑换红包 = type=cron,cronexp="0,1,2 0 * * *",wake-system=1,timeout=120,script-path=https://raw.githubusercontent.com/gys619/Absinthe/main/jd_cash_exchange.js
 京喜财富岛 = type=cron,cronexp="5 8,13,19 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/gys619/Absinthe/main/jd_cfd.js
 财富岛兑换红包 = type=cron,cronexp="50 * * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/gys619/Absinthe/main/jd_cfd_hb.js
 京喜财富岛热气球 = type=cron,cronexp="8 8,13,19 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/gys619/Absinthe/main/jd_cfd_loop.js
@@ -40,7 +39,6 @@
 京东种豆得豆 = type=cron,cronexp="1 7-21/2 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/gys619/Absinthe/main/jd_plantBean.js
 京东保价 = type=cron,cronexp="41 23 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/gys619/Absinthe/main/jd_price.js
 闪购盲盒 = type=cron,cronexp="20 8 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/gys619/Absinthe/main/jd_sgmh.js
-进店领豆 = type=cron,cronexp="10 0 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/gys619/Absinthe/main/jd_shop.js
 天天加速 = type=cron,cronexp="8 0-23/3 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/gys619/Absinthe/main/jd_speed.js
 京东极速版红包 = type=cron,cronexp="20 0,22 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/gys619/Absinthe/main/jd_speed_redpocke.js
 京东极速版 = type=cron,cronexp="0 1,7 * * *",wake-system=1,timeout=33600,script-path=https://raw.githubusercontent.com/gys619/Absinthe/main/jd_speed_sign.js

@@ -40,7 +40,6 @@
 		"41 23 * * * https://raw.githubusercontent.com/gys619/Absinthe/main/jd_price.js, tag=京东保价 , img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png",
 		"20 8 * * * https://raw.githubusercontent.com/gys619/Absinthe/main/jd_sgmh.js, tag=闪购盲盒 , img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png",
 		"8 0-23/3 * * * https://raw.githubusercontent.com/gys619/Absinthe/main/jd_speed.js, tag=天天加速 , img-url=https://raw.githubusercontent.com/58xinian/icon/master/jdjs.png",
-		"20 0,22 * * * https://raw.githubusercontent.com/gys619/Absinthe/main/jd_speed_redpocke.js, tag=京东极速版红包 , img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png",
 		"0 1,7 * * * https://raw.githubusercontent.com/gys619/Absinthe/main/jd_speed_sign.js, tag=京东极速版 , img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png",
 		"55 23 * * * https://raw.githubusercontent.com/gys619/Absinthe/main/jd_unsubscribe.js, tag=取关京东店铺商品 , img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png",
 		"55 6 * * * https://raw.githubusercontent.com/gys619/Absinthe/main/jd_unsubscriLive.js, tag=取关所有主播 , img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png"

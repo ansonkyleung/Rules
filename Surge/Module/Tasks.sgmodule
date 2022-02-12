@@ -40,7 +40,6 @@
 京东保价 = type=cron,cronexp="41 23 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/gys619/Absinthe/main/jd_price.js
 闪购盲盒 = type=cron,cronexp="20 8 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/gys619/Absinthe/main/jd_sgmh.js
 天天加速 = type=cron,cronexp="8 0-23/3 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/gys619/Absinthe/main/jd_speed.js
-京东极速版红包 = type=cron,cronexp="20 0,22 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/gys619/Absinthe/main/jd_speed_redpocke.js
 京东极速版 = type=cron,cronexp="0 1,7 * * *",wake-system=1,timeout=33600,script-path=https://raw.githubusercontent.com/gys619/Absinthe/main/jd_speed_sign.js
 取关京东店铺商品 = type=cron,cronexp="55 23 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/gys619/Absinthe/main/jd_unsubscribe.js
 取关所有主播 = type=cron,cronexp="55 6 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/gys619/Absinthe/main/jd_unsubscriLive.js

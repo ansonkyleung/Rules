@@ -1,6 +1,6 @@
 {
     "name":"UI-Interaction",
-    "description":"自用脚本",
+    "description":"自用UI交互脚本",
     "task":[
         "event-interaction https://raw.githubusercontent.com/I-am-R-E/QuantumultX/main/TaskLocal/NeteaseMusicUnlockCheck.js, tag=网易云音乐-解锁查询, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Netease_Music_Unlock.png, enabled=true",
     ]

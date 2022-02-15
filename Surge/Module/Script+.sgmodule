@@ -19,7 +19,7 @@ http-response https://lchttpapi.xczim.com/* requires-body=1,max-size=-1,script-p
 http-response ^https?:\/\/baimiao\.uzero\.cn\/api\/v\d\.user\/appLaunchWithUser$ requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/iEwha/Profiles/master/Script/baimiao.js
 
 # > 拦截100 超级VIP by Hausd0rff
-http-response ^https?:\/\/tagit\.hyhuo\.com\/cypt\/block100\/get_vip_info$ requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/yqc007/QuantumultX/master/Block100FVIPCrack.js
+http-response ^https?:\/\/tagit\.hyhuo\.com\/cypt\/block100\/get_vip_info$ requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/yqc007/QuantumultX/master/Block100SVIPCrack.js
 
 # > Xmind 订阅 by langkhach270389
 http-response https?:\/\/.*\.xmind\..*\/_res\/(devices|user_sub_status|appstore/sub) requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/langkhach270389/Surge-LK/main/scripts/langkhach/xmind.js

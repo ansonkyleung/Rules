@@ -17,5 +17,11 @@ https://helper.2bulu.com/getSplash - reject
 https://helper.2bulu.com/outing/reqFoundNewList - reject
 https://helper.2bulu.com/outing/reqIndex - reject
 
+# > 拼多多
+^https?:\/\/api\.(pinduoduo|yangkeduo)\.com\/api\/cappuccino\/splash - reject
+
+# > 飞猪旅行
+^https?:\/\/gw\.alicdn\.com\/imgextra\/\w{2}\/[\w!]+-\d-tps-\d{3}-\d{4}\.(jpg|png)$ - reject
+
 [MITM]
-hostname = %INSERT% *.maxmind.com, helper.2bulu.com
+hostname = %INSERT% *.maxmind.com, helper.2bulu.com, api.pinduoduo.com, api.yangkeduo.com, gw.alicdn.com

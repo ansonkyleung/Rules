@@ -40,7 +40,7 @@ https://helper.2bulu.com/outing/reqIndex - reject
 # > 高德地图
 ^https?:\/\/m5.amap.com\/ws\/valueadded\/ - reject
 
-# > 百度地图开屏广告
+# > 百度地图
 ^https:\/\/dss0\.bdstatic\.com\/.+/tam-ogel\/.+\.jpg - reject
 
 # > 美团
@@ -52,7 +52,7 @@ https://helper.2bulu.com/outing/reqIndex - reject
 # > 美团外卖
 ^https?:\/\/wmapi\.meituan\.com\/api\/v\d+\/loadInfo\? - reject
 
-# > 京东金融开屏广告
+# > 京东金融
 ^https?:\/\/ms\.jr\.jd\.com\/gw\/generic\/aladdin\/(new)?na\/m\/getLoadingPicture - reject
 
 [MITM]

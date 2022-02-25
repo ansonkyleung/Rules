@@ -1,5 +1,5 @@
 #!name=＞ Network framework
-#!desc=Uses Network.framework to utilize userspace network stack, whicl scan improve throughput, reduce latency and enable cutting edge features such as Multipath TCP. 
+#!desc=启动 Network framework 以开启用户态网络协议栈，可提高吞吐量，降低延迟并开启 MPTCP。（需手动重启 Surge）
 
 [General]
 network-framework = true

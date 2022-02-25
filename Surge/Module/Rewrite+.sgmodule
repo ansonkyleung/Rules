@@ -37,9 +37,6 @@ https://helper.2bulu.com/outing/reqIndex - reject
 # > 腾讯手机管家
 ^https://otheve.beacon.qq.com\/analytics\/upload\?sid=.* - reject
 
-# > 高德地图
-^https?:\/\/m5.amap.com\/ws\/valueadded\/ - reject
-
 # > 百度地图
 ^https:\/\/dss0\.bdstatic\.com\/.+/tam-ogel\/.+\.jpg - reject
 
@@ -56,4 +53,4 @@ https://helper.2bulu.com/outing/reqIndex - reject
 ^https?:\/\/ms\.jr\.jd\.com\/gw\/generic\/aladdin\/(new)?na\/m\/getLoadingPicture - reject
 
 [MITM]
-hostname = %INSERT% *.maxmind.com, helper.2bulu.com, api.pinduoduo.com, api.yangkeduo.com, gw.alicdn.com, pages.xiaohongshu.com, www.xiaohongshu.com, otheve.beacon.qq.com, m5.amap.com, *.bdstatic.com, s3plus.meituan.net,flowplus.meituan.net, p*.meituan.net, img.meituan.net, wmapi.meituan.com, ms.jr.jd.com
+hostname = %INSERT% *.maxmind.com, helper.2bulu.com, api.pinduoduo.com, api.yangkeduo.com, gw.alicdn.com, pages.xiaohongshu.com, www.xiaohongshu.com, otheve.beacon.qq.com, *.bdstatic.com, s3plus.meituan.net,flowplus.meituan.net, p*.meituan.net, img.meituan.net, wmapi.meituan.com, ms.jr.jd.com

@@ -40,14 +40,5 @@ https://helper.2bulu.com/outing/reqIndex - reject
 # > 百度地图
 ^https:\/\/dss0\.bdstatic\.com\/.+/tam-ogel\/.+\.jpg - reject
 
-# > 美团
-^https?:\/\/img\.meituan\.net\/(adunion|display|midas)\/\w+\.(gif|jpg|jpg\.webp)$ - reject
-^https?:\/\/(s3plus|flowplus)\.meituan\.net\/v\d\/\w+\/linglong\/\w+\.(gif|jpg|mp4) - reject
-^https?:\/\/p\d\.meituan\.net\/(bizad|wmbanner)\/\w+\.jpg - reject
-^https?:\/\/p\d\.meituan\.net\/movie\/\w+\.jpg\?may_covertWebp - reject
-
-# > 美团外卖
-^https?:\/\/wmapi\.meituan\.com\/api\/v\d+\/loadInfo\? - reject
-
 [MITM]
-hostname = %INSERT% *.maxmind.com, helper.2bulu.com, api.pinduoduo.com, api.yangkeduo.com, gw.alicdn.com, pages.xiaohongshu.com, www.xiaohongshu.com, otheve.beacon.qq.com, *.bdstatic.com, s3plus.meituan.net,flowplus.meituan.net, p*.meituan.net, img.meituan.net, wmapi.meituan.com
+hostname = %INSERT% *.maxmind.com, helper.2bulu.com, api.pinduoduo.com, api.yangkeduo.com, gw.alicdn.com, pages.xiaohongshu.com, www.xiaohongshu.com, otheve.beacon.qq.com, *.bdstatic.com

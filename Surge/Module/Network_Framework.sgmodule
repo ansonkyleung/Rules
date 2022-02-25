@@ -1,5 +1,5 @@
 #!name=＞ Network framework
-#!desc=启动 Network framework 以开启用户态网络协议栈，可提高吞吐量，降低延迟并开启 MPTCP。（需手动重启 Surge）
+#!desc=开启 Network framework。开启用户态网络协议栈，可提高吞吐量，降低延迟并开启 MPTCP。（需手动重启 Surge）
 
 [General]
 network-framework = true

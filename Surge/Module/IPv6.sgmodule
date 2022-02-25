@@ -1,5 +1,5 @@
 #!name=＞ IPv6
-#!desc=Enable IPv6 support.
+#!desc=打开 IPv6 支持
 
 [General]
 ipv6 = true

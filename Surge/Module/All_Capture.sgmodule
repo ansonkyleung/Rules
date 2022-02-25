@@ -1,5 +1,5 @@
 #!name=＞ MitM All Hostnames
-#!desc=Perform MitM on all hostnames with port 443, except those to Apple and other common sites which can‘t be inspected.
+#!desc=对端口为 443 的所有主机名执行 MitM，但 Apple 和其他无法检查的常见站点除外。
 
 [MITM]
 hostname = -*.apple.com, -*.icloud.com, -*.mzstatic.com, -*.crashlytics.com, -*.facebook.com, -*.instagram.com, *

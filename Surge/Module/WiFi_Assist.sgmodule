@@ -1,5 +1,5 @@
 #!name=＞ Wi-Fi Assist
-#!desc=Surge will try to set up a connection with cellular data when the Wi-Fi network is poor.
+#!desc=开启 Wi-Fi 助理。当您的 Wi-Fi 连接信号差时，使用 Wi-Fi 助理自动切换到蜂窝移动网络。
 #!system=ios
 
 [General]

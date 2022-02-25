@@ -1,5 +1,5 @@
 #!name=＞ Ali DoH
-#!desc=Enable DNS over HTTPS (DoH) with Ali public DNS.
+#!desc=使用阿里云公共DNS启用 DNS over HTTPS
 
 [General]
 dns-server = 223.5.5.5, 223.6.6.6

@@ -1,5 +1,5 @@
 #!name=＞ DNSPod DoH
-#!desc=Enable DNS over HTTPS (DoH) with DNSPod Public DNS.
+#!desc=使用 DNSPod 公共 DNS 来启用 DNS over HTTPS
 
 [General]
 dns-server = 119.29.29.29

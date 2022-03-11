@@ -6,7 +6,6 @@
 		"2 9 * * * https://raw.githubusercontent.com/gys619/Absinthe/main/jd_bean_change.js, tag=京东资产变动通知 , img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png",
 		"23 1,12,22 * * * https://raw.githubusercontent.com/gys619/Absinthe/main/jd_bean_home.js, tag=领京豆额外奖励 , img-url=https://raw.githubusercontent.com/58xinian/icon/master/jd_bean_home.png",
 		"10 7 * * * https://raw.githubusercontent.com/gys619/Absinthe/main/jd_car.js, tag=京东汽车 , img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png",
-		"0 0 * * * https://raw.githubusercontent.com/gys619/Absinthe/main/jd_car_exchange.js, tag=京东汽车兑换 , img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png",
 		"2 0-23/4 * * * https://raw.githubusercontent.com/gys619/Absinthe/main/jd_cash.js, tag=签到领现金 , img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png",
 		"5 8,13,19 * * * https://raw.githubusercontent.com/gys619/Absinthe/main/jd_cfd.js, tag=京喜财富岛 , img-url=https://raw.githubusercontent.com/58xinian/icon/master/jxcfd.png",
 		"50 * * * * https://raw.githubusercontent.com/gys619/Absinthe/main/jd_cfd_hb.js, tag=财富岛兑换红包 , img-url=https://raw.githubusercontent.com/58xinian/icon/master/jxcfd.png",
@@ -39,7 +38,6 @@
 		"8 0-23/3 * * * https://raw.githubusercontent.com/gys619/Absinthe/main/jd_speed.js, tag=天天加速 , img-url=https://raw.githubusercontent.com/58xinian/icon/master/jdjs.png",
 		"0 1,7 * * * https://raw.githubusercontent.com/gys619/Absinthe/main/jd_speed_sign.js, tag=京东极速版 , img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png",
 		"55 23 * * * https://raw.githubusercontent.com/gys619/Absinthe/main/jd_unsubscribe.js, tag=取关京东店铺商品 , img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png",
-		"55 6 * * * https://raw.githubusercontent.com/gys619/Absinthe/main/jd_unsubscriLive.js, tag=取关所有主播 , img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png",
-		"15 7 * * * https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Script/block100.js, tag=拦截100自动领取会员 , img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Reject.png"
+		"55 6 * * * https://raw.githubusercontent.com/gys619/Absinthe/main/jd_unsubscriLive.js, tag=取关所有主播 , img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png"		
 	]
 }

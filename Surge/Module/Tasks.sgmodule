@@ -10,28 +10,21 @@
 京喜财富岛 = type=cron,cronexp="5 8,13,19 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/gys619/Absinthe/main/jd_cfd.js
 摇京豆 = type=cron,cronexp="5 0,23 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/gys619/Absinthe/main/jd_club_lottery.js
 东东农场 = type=cron,cronexp="5 6-18/6 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/gys619/Absinthe/main/jd_fruit.js
-金榜创造营 = type=cron,cronexp="13 1,22 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/gys619/Absinthe/main/jd_gold_creator.js
-东东健康社区 = type=cron,cronexp="13 1,6,22 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/gys619/Absinthe/main/jd_health.js
-东东健康社区收集能量 = type=cron,cronexp="5-45/20 * * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/gys619/Absinthe/main/jd_health_collect.js
-东东工厂 = type=cron,cronexp="10 * * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/gys619/Absinthe/main/jd_jdfactory.js
 京东赚赚 = type=cron,cronexp="10 0 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/gys619/Absinthe/main/jd_jdzz.js
 领金贴 = type=cron,cronexp="10 0 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/gys619/Absinthe/main/jd_jin_tie.js
 京喜牧场 = type=cron,cronexp="20 * * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/gys619/Absinthe/main/jd_jxmc.js
 京喜农场 = type=cron,cronexp="0 9,12,18 * * *",timeout=3600,script-path=https://raw.githubusercontent.com/gys619/Absinthe/main/jd_jxnc.js
 幸运大转盘 = type=cron,cronexp="4 10 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/gys619/Absinthe/main/jd_market_lottery.js
-5G超级盲盒 = type=cron,cronexp="0 0,1-23/3 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/gys619/Absinthe/main/jd_mohe.js
 京东摇钱树 = type=cron,cronexp="3 0-23/2 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/gys619/Absinthe/main/jd_moneyTree.js
 京东秒秒币 = type=cron,cronexp="10 7 * * *",wake-system=1,timeout=200,script-path=https://raw.githubusercontent.com/gys619/Absinthe/main/jd_ms.js
 点点券 = type=cron,cronexp="10 0,20 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/photonmang/quantumultX/master/JDscripts/jd_necklace.js
 东东萌宠 = type=cron,cronexp="15 6-18/6 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/gys619/Absinthe/main/jd_pet.js
-京东金融养猪猪 = type=cron,cronexp="12 0-23/6 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/gys619/Absinthe/main/jd_pigPet.js
 京东种豆得豆 = type=cron,cronexp="1 7-21/2 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/gys619/Absinthe/main/jd_plantBean.js
 京东价格保护 = type=cron,cronexp="41 23 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/gys619/Absinthe/main/jd_price.js
 闪购盲盒 = type=cron,cronexp="20 8 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/gys619/Absinthe/main/jd_sgmh.js
 天天加速 = type=cron,cronexp="8 0-23/3 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/gys619/Absinthe/main/jd_speed.js
 京东极速版 = type=cron,cronexp="0 1,7 * * *",wake-system=1,timeout=33600,script-path=https://raw.githubusercontent.com/gys619/Absinthe/main/jd_speed_sign.js
 取关京东店铺商品 = type=cron,cronexp="55 23 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/gys619/Absinthe/main/jd_unsubscribe.js
-取关所有主播 = type=cron,cronexp="55 6 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/gys619/Absinthe/main/jd_unsubscriLive.js
 
 [MITM]
 hostname = %APPEND% me-api.jd.com, draw.jdfcloud.com, jdjoy.jd.com

@@ -6,4 +6,4 @@
 covid19 = script-name=covid19, title=新冠疫情查询, content=请刷新, update-interval=600
 
 [Script]
-covid19 = type=generic, script-path=https://raw.githubusercontent.com/TributePaulWalker/Profiles/main/JavaScript/Surge/Covid19.js
+covid19 = type=generic, script-path=https://raw.githubusercontent.com/ansonkyleung/Rules/master/Surge/JavaScript/Covid19.js

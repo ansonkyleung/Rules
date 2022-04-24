@@ -7,15 +7,7 @@
 ^(http|https)://geolite.maxmind.com/download/geoip/database/GeoLite2-Country.tar.gz https://download.maxmind.com/app/geoip_download?edition_id=GeoLite2-Country&license_key=4FCHjQbTPVBZT9G2&suffix=tar.gz 302
 
 # > 两步路 by ddgksf2013
-https://helper.2bulu.com/greenPea/queryTasks - reject
-https://helper.2bulu.com/proSpecial/allData - reject
-https://helper.2bulu.com/saveSplashFrequencyStatistics - reject
-https://helper.2bulu.com/getPopInfo - reject
-https://helper.2bulu.com/getAppEntranceConfig - reject
-https://helper.2bulu.com/promote/list - reject
-https://helper.2bulu.com/getSplash - reject
-https://helper.2bulu.com/outing/reqFoundNewList - reject
-https://helper.2bulu.com/outing/reqIndex - reject
+https?:\/\/helper\.2bulu\.com\/(greenPea\/queryTasks|proSpecial\/allData|saveSplashFrequencyStatistics|getPopInfo|getAppEntranceConfig|promote\/list|getSplash|outing\/reqFoundNewList|outing\/reqIndex) - reject
 
 # > 拼多多
 ^https?:\/\/api\.(pinduoduo|yangkeduo)\.com\/api\/cappuccino\/splash - reject

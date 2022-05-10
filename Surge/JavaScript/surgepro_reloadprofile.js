@@ -1,4 +1,6 @@
-//代码借鉴 https://raw.githubusercontent.com/chaizia/Profiles/master/MySurge/surgepro_flushdns.js
+//代码借鉴 https://raw.githubusercontent.com/fishingworld/something/main/PanelScripts/surgepro_reloadprofile.js
+//代码借鉴 https://raw.githubusercontent.com/smartmimi/conf/master/surge/functionstatus.js
+
 !(async () => {
 let traffic = (await httpAPI("/v1/traffic","GET"));
 let dateNow = new Date();

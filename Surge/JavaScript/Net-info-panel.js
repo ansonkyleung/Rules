@@ -2,6 +2,7 @@
  * Surge 网络详情面板
  * 代码借鉴 https://raw.githubusercontent.com/ventusoon/ventus/main/Panel/Net-info-panel.js
  */
+
 const { wifi, v4, v6 } = $network;
 
 let cellularInfo = '';

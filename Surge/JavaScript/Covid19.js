@@ -1,3 +1,5 @@
+//代码借鉴 https://raw.githubusercontent.com/ventusoon/ventus/main/Panel/Covid19.js
+
 var list = ["中国","广州","深圳","梅州","云浮"];
 const url = "https://view.inews.qq.com/g2/getOnsInfo?name=disease_h5";
 var ala="";

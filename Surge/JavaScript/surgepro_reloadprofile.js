@@ -19,7 +19,7 @@ if ($trigger == "button") {
 };
 $done({
     title:"Surge Pro",
-    content:"启动时长："+startTime+"\nMitm："+icon_status(mitm_status.enabled)+" | Rewrite："+icon_status(rewrite_status.enabled)+" | Script："+icon_status(scripting_status.enabled),
+    content:"启动时长："+startTime+"\nMitm "+icon_status(mitm_status.enabled)+" | Rewrite "+icon_status(rewrite_status.enabled)+" | Script "+icon_status(scripting_status.enabled),
     icon: icon_s?"crown.fill":"exclamationmark.triangle",
    "icon-color":icon_s?"#ffd700":"#ff0000"
 });

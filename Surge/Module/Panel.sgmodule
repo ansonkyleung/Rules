@@ -3,7 +3,7 @@
 
 [Panel]
 # Surge Pro
-SurgePro_ReloadProfile = script-name=SurgePro_ReloadProfile ,update-interval=60
+SurgePro_ReloadProfile = script-name=SurgePro_ReloadProfile ,update-interval=5
 
 # 节假日提醒
 timecard = script-name=timecard ,update-interval=3600

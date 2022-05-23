@@ -11,7 +11,11 @@
 # 如果通知获取Cookie成功, 则可以使用此签到脚本. 注: 请勿在京东APP内获取!!!
 # 获取京东金融签到Body说明: 正确添加脚本配置后, 进入"京东金融"APP, 在"首页"点击"签到"并签到一次, 待通知提示成功即可.
 # 由于cookie的有效性(经测试网页Cookie有效周期最长31天)，如果脚本后续弹出cookie无效的通知，则需要重复上述步骤。 
-获取京东Cookie = type=http-request,requires-body=1,pattern=^https:\/\/(api\.m|me-api|ms\.jr)\.jd\.com\/(client\.action\?functionId=signBean|user_new\/info\/GetJDUserInfoUnion\?|gw\/generic\/hy\/h5\/m\/appSign\?),script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js
+获取京东 Cookie = type=http-request,requires-body=1,pattern=^https:\/\/(api\.m|me-api|ms\.jr)\.jd\.com\/(client\.action\?functionId=signBean|user_new\/info\/GetJDUserInfoUnion\?|gw\/generic\/hy\/h5\/m\/appSign\?),script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js
+
+# 京东价格保护
+# 打开手机客户端，或者浏览器访问 https://msitepp-fm.jd.com/rest/priceprophone/priceProPhoneMenu
+获取 token = type=http-request,requires-body=1,pattern=https:\/\/api\.m.jd.com\/api\?appid=siteppM&functionId=siteppM_priceskusPull,script-path=https://raw.githubusercontent.com/ZCY01/daily_scripts/main/jd/jd_priceProtectRewrite.js
 
 [MITM]
 hostname = %APPEND% ms.jr.jd.com, me-api.jd.com, api.m.jd.com

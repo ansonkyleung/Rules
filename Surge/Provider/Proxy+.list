@@ -1,7 +1,7 @@
 # > CUSTOM
 
 # > 常用机场
-DOMAIN,pro.crosswall.cc
+DOMAIN-SUFFIX,crosswall.cc
 DOMAIN-SUFFIX,v2bz.com
 DOMAIN-SUFFIX,cccat.io
 DOMAIN-SUFFIX,prprcloud.moe

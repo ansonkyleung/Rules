@@ -12,20 +12,17 @@ http-response ^https?:\/\/server\.yoyiapp\.com\/fimo-user\/apple\/certificate$ r
 # > 西窗烛会员 by ddgksf2013
 http-response https://lchttpapi.xczim.com/* requires-body=1,max-size=-1,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/xcz.js
 
-# > 白描黄金会员 by iEwha
-http-response ^https?:\/\/baimiao\.uzero\.cn\/api\/v\d\.user\/appLaunchWithUser$ requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/iEwha/Profiles/master/Script/baimiao.js
+# > 白描黄金会员
+http-response ^https?:\/\/baimiao\.uzero\.cn\/api\/v\d\.user\/appLaunchWithUser$ requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/id77/QuantumultX/master/Script/baimiao.js
 
-# > Xmind 订阅 by langkhach270389
+# > Xmind 订阅
 http-response https?:\/\/.*\.xmind\..*\/_res\/(devices|user_sub_status|appstore/sub) requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/langkhach270389/Surge-LK/main/scripts/langkhach/xmind.js
 
-# > AdGuard Premium by iEwha
-http-response ^https:\/\/mobile-api\.adguard\.com\/api\/1\.0\/ios_validate_receipt$ requires-body=1,max-size=-1,script-path=https://raw.githubusercontent.com/iEwha/Profiles/master/Script/adguard.js
+# > AdGuard Premium
+http-response ^https:\/\/mobile-api\.adguard\.com\/api\/1\.0\/ios_validate_receipt$ requires-body=1,max-size=-1,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/adguard.js
 
-# > 爱企查会员 by litieyin
+# > 爱企查会员
 http-response ^https:\//aiqicha.baidu.com\/usercenter\/getvipinfoajax requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ansonkyleung/Rules/master/QuantumultX/UnlockVip/aiqicha.js
 
-# > B612咔叽 VIP by ddgksf2013
-http-response https://user-kaji-api.b612kaji.com/v1/purchase/subscription/subscriber/status requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/612.js
-
 [MITM]
-hostname = %APPEND% vsco.co, api.revenuecat.com, server.yoyiapp.com, lchttpapi.xczim.com, baimiao.uzero.cn, *.xmind.*, mobile-api.adguard.com, aiqicha.baidu.com, user-kaji-api.b612kaji.com
+hostname = %APPEND% vsco.co, api.revenuecat.com, server.yoyiapp.com, lchttpapi.xczim.com, baimiao.uzero.cn, *.xmind.*, mobile-api.adguard.com, aiqicha.baidu.com

@@ -4,9 +4,9 @@
 
 [Script]
 京东多合一签到 = type=cron,cronexp=2 9 * * *,wake-system=1,timeout=60,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js
-京东资产变动通知 = type=cron,cronexp=2 10 * * *,wake-system=1,timeout=60,script-path=https://raw.githubusercontent.com/ansonkyleung/Rules/master/Surge/JavaScript/jd_bean_change.js
-京东极速版 = type=cron,cronexp=2 5,13 * * *,wake-system=1,timeout=60,script-path=https://raw.githubusercontent.com/ansonkyleung/Rules/master/Surge/JavaScript/jd_speed_sign.js
-京东赚赚 = type=cron,cronexp=2 6,14 * * *,wake-system=1,timeout=60,script-path=https://raw.githubusercontent.com/ansonkyleung/Rules/master/Surge/JavaScript/jd_jdzz.js
-东东农场 = type=cron,cronexp=2 7,15 * * *,wake-system=1,timeout=60,script-path=https://raw.githubusercontent.com/ansonkyleung/Rules/master/Surge/JavaScript/jd_fruit.js
-东东萌宠 = type=cron,cronexp=2 8,16 * * *,wake-system=1,timeout=60,script-path=https://raw.githubusercontent.com/ansonkyleung/Rules/master/Surge/JavaScript/jd_pet.js
+京东资产变动通知 = type=cron,cronexp=2 10 * * *,wake-system=1,timeout=60,script-path=https://raw.githubusercontent.com/gys619/Absinthe/main/backUp/jd_bean_change.js
+京东极速版 = type=cron,cronexp=2 5,13 * * *,wake-system=1,timeout=60,script-path=https://raw.githubusercontent.com/gys619/Absinthe/main/jd_speed_sign.js
+京东赚赚 = type=cron,cronexp=2 6,14 * * *,wake-system=1,timeout=60,script-path=https://raw.githubusercontent.com/gys619/Absinthe/main/jd_jdzz.js
+东东农场 = type=cron,cronexp=2 7,15 * * *,wake-system=1,timeout=60,script-path=https://raw.githubusercontent.com/gys619/Absinthe/main/jd_fruit.js
+东东萌宠 = type=cron,cronexp=2 8,16 * * *,wake-system=1,timeout=60,script-path=https://raw.githubusercontent.com/gys619/Absinthe/main/jd_pet.js
 取关京东店铺商品 = type=cron,cronexp=2 11 * * *,wake-system=1,timeout=60,script-path=https://raw.githubusercontent.com/qionger0220/SamiAll/main/jd_unsubscribe.js

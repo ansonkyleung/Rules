@@ -3,4 +3,6 @@
 # > 米家
 DOMAIN,api.io.mi.com
 DOMAIN,home.mi.com
+
+# > 机场
 DOMAIN-SUFFIX,prprcloud.life

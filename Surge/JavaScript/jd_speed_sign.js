@@ -1,19 +1,19 @@
 /*
-京东极速版签到+赚现金任务
+京东特价签到+赚现金任务
 每日9毛左右，满3，10，50可兑换无门槛红包
 ⚠️⚠️⚠️一个号需要运行40分钟左右
 
 活动时间：长期
-活动入口：京东极速版app-现金签到
+活动入口：京东特价app-现金签到
 已支持IOS双京东账号,Node.js支持N个京东账号
 脚本兼容: QuantumultX, Surge, Loon, JSBox, Node.js
 ============Quantumultx===============
 [task_local]
-#京东极速版
+#京东特价
 5 0,8 * * * jd_speed_sign.js
 
 */
-const $ = new Env('京东极速版');
+const $ = new Env('京东特价');
 const notify = $.isNode() ? require('./sendNotify') : '';
 //Node.js用户请在jdCookie.js处填写京东ck;
 const jdCookieNode = $.isNode() ? require('./jdCookie.js') : '';
@@ -90,7 +90,7 @@ async function jdGlobal() {
 
 function showMsg() {
   return new Promise(resolve => {
-    message += `本次运行获得${$.score}金币，共计${$.total}金币\n可兑换 ${($.total/10000).toFixed(2)} 元京东红包\n兑换入口：京东极速版->我的->金币`
+    message += `本次运行获得${$.score}金币，共计${$.total}金币\n可兑换 ${($.total/10000).toFixed(2)} 元京东红包\n兑换入口：京东特价->我的->金币`
     $.msg($.name, '', `京东账号${$.index}${$.nickName}\n${message}`);
     resolve()
   })

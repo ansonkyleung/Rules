@@ -4,8 +4,6 @@
 
 [Script]
 京东多合一签到 = type=cron,cronexp=2 9 * * *,wake-system=1,timeout=60,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js
-京东资产变动通知 = type=cron,cronexp=2 10 * * *,wake-system=1,timeout=60,script-path=https://raw.githubusercontent.com/ansonkyleung/Rules/master/Surge/JavaScript/jd_bean_change.js
 取关京东店铺商品 = type=cron,cronexp=2 11 * * *,wake-system=1,timeout=60,script-path=https://raw.githubusercontent.com/ansonkyleung/Rules/master/Surge/JavaScript/jd_unsubscribe.js
 京东特价 = type=cron,cronexp=2 13 * * *,wake-system=1,timeout=60,script-path=https://raw.githubusercontent.com/ansonkyleung/Rules/master/Surge/JavaScript/jd_speed_sign.js
-京东赚赚 = type=cron,cronexp=2 14 * * *,wake-system=1,timeout=60,script-path=https://raw.githubusercontent.com/ansonkyleung/Rules/master/Surge/JavaScript/jd_jdzz.js
 东东农场 = type=cron,cronexp=2 15 * * *,wake-system=1,timeout=60,script-path=https://raw.githubusercontent.com/ansonkyleung/Rules/master/Surge/JavaScript/jd_fruit.js

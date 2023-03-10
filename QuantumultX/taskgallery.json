@@ -5,7 +5,7 @@
 		"1 0 * * * https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js, tag=京东多合一签到 , img-url=https://raw.githubusercontent.com/NobyDa/mini/master/Color/jd.png",
 		"1 9 * * * https://raw.githubusercontent.com/ansonkyleung/Rules/master/Surge/JavaScript/jd_bean_change.js, tag=京东资产变动通知 , img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png",
 		"3 0-23/3 * * * https://raw.githubusercontent.com/ansonkyleung/Rules/master/Surge/JavaScript/jd_fruit.js, tag=东东农场 , img-url=https://raw.githubusercontent.com/58xinian/icon/master/jdnc.png",
-		"9 0,10 * * * https://raw.githubusercontent.com/ansonkyleung/Rules/master/Surge/JavaScript/jd_speed_sign.js, tag=京喜特价 , img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png",
+		"9 0,10 * * * https://raw.githubusercontent.com/ansonkyleung/Rules/master/Surge/JavaScript/jd_speed_sign.js, tag=京喜特价 , img-url=https://i.328888.xyz/2023/03/11/sWls3.png",
 		"2 1,22 * * * https://raw.githubusercontent.com/ansonkyleung/Rules/master/Surge/JavaScript/jd_club_lottery.js, tag=摇京豆 , img-url=https://raw.githubusercontent.com/58xinian/icon/master/jdyjd.png",
 		"1 7-21/2 * * * https://raw.githubusercontent.com/ansonkyleung/Rules/master/Surge/JavaScript/jd_plantBean.js, tag=京东种豆得豆 , img-url=https://raw.githubusercontent.com/58xinian/icon/master/jdzd.png",
 		"3 1,11 * * * https://raw.githubusercontent.com/ansonkyleung/Rules/master/Surge/JavaScript/jd_jdfactory.js, tag=东东工厂 , img-url=https://raw.githubusercontent.com/58xinian/icon/master/jd_factory.png",

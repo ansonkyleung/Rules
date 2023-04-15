@@ -24,13 +24,10 @@ http-response https?:\/\/.*\.xmind\..*\/_res\/(devices|user_sub_status|appstore/
 # > AdGuard Premium
 http-response ^https?:\/\/mobile-api\.adguard\.org\/api\/.+\/ios_validate_receipt requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/yqc007/QuantumultX/master/AdGuardProCrack.js
 
-# > 微信公众号去广告
-http-response ^https?:\/\/mp\.weixin\.qq\.com\/mp\/getappmsgad requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/iEwha/Profiles/master/Script/WeChat.js
-
 # > 小红书去广告
 开屏广告 = type=http-response,pattern=^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d\/system_service\/splash_config,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ddgksf2013/Scripts/master/redbook_json.js
 首页瀑布流 = type=http-response,pattern=^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d\/homefeed\?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ddgksf2013/Scripts/master/redbook_json.js
 启动处理 = type=http-response,pattern=^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d\/system_service\/config\?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ddgksf2013/Scripts/master/redbook_json.js
 
 [MITM]
-hostname = %APPEND% server.yoyiapp.com, api.revenuecat.com, iap.etm.tech, lchttpapi.xczim.com, baimiao.uzero.cn, *.xmind.*, *.adguard.org, mp.weixin.qq.com, edith.xiaohongshu.com, www.xiaohongshu.com, pages.xiaohongshu.com, referee.xiaohongshu.com
+hostname = %APPEND% server.yoyiapp.com, api.revenuecat.com, iap.etm.tech, lchttpapi.xczim.com, baimiao.uzero.cn, *.xmind.*, *.adguard.org, edith.xiaohongshu.com, www.xiaohongshu.com, pages.xiaohongshu.com, referee.xiaohongshu.com

@@ -3,23 +3,14 @@
 #!system=ios
 
 [Script]
-# > DarkRoom 解锁永久高级版
+# > DarkRoom Unlock Everything Forever
 http-response ^https?:\/\/api\.revenuecat\.com\/v1\/(receipts|subscribers\/\$RCAnonymousID%3A\w{32}) requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/yqc007/QuantumultX/master/DarkRoomPremiumCrack.js
 
-# > Pixelance 解锁永久高级版
+# > Pixelance Premium
 http-response ^https?:\/\/iap\.etm\.tech\/receipts$ requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/yqc007/QuantumultX/master/PixelanceProCrack.js
-
-# > 西窗烛会员
-http-response https://lchttpapi.xczim.com/* requires-body=1,max-size=-1,script-path=https://raw.githubusercontent.com/ansonkyleung/Rules/master/QuantumultX/UnlockVip/xcz.js
-
-# > 白描黄金会员
-http-response ^https?:\/\/baimiao\.uzero\.cn\/api\/v\d\.user\/appLaunchWithUser$ requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/iEwha/Profiles/master/Script/baimiao.js
 
 # > AdGuard Premium
 http-response ^https?:\/\/mobile-api\.adguard\.org\/api\/.+\/ios_validate_receipt requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/yqc007/QuantumultX/master/AdGuardProCrack.js
-
-# > Flightradar24 Gold
-Flightradar24 Gold = type=http-response,pattern=^https://mobile.flightradar24.com/mobile/(user-session|subscribe),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Yu9191/Rewrite/main/Flightradar24.js
 
 # > 小红书去广告
 开屏广告 = type=http-response,pattern=^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d\/system_service\/splash_config,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ddgksf2013/Scripts/master/redbook_json.js
@@ -27,4 +18,4 @@ Flightradar24 Gold = type=http-response,pattern=^https://mobile.flightradar24.co
 启动处理 = type=http-response,pattern=^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d\/system_service\/config\?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ddgksf2013/Scripts/master/redbook_json.js
 
 [MITM]
-hostname = %APPEND% api.revenuecat.com, iap.etm.tech, lchttpapi.xczim.com, baimiao.uzero.cn, *.adguard.org, mobile.flightradar24.com, edith.xiaohongshu.com, www.xiaohongshu.com, pages.xiaohongshu.com, referee.xiaohongshu.com
+hostname = %APPEND% api.revenuecat.com, iap.etm.tech, *.adguard.org, edith.xiaohongshu.com, www.xiaohongshu.com, pages.xiaohongshu.com, referee.xiaohongshu.com

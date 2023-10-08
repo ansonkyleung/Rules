@@ -11,7 +11,7 @@ URL-REGEX,^https://goblin\.hupu\.com/[^/]+/[^/]+/interfaceAd/, REJECT
 ^(http|https)://geolite.maxmind.com/download/geoip/database/GeoLite2-Country.tar.gz https://download.maxmind.com/app/geoip_download?edition_id=GeoLite2-Country&license_key=4FCHjQbTPVBZT9G2&suffix=tar.gz 302
 
 [Header Rewrite]
-# > JavBus 不弹登录0
+# > JavBus 不弹登录
 ^https:\/\/(www\.)?javbus\.com\/ header-replace Accept-Language de,en-US;q=0.7,en;q=0.3
 
 [MITM]

@@ -11,4 +11,4 @@
 ^http://(www.)?g\.cn https://www.google.com 302
 
 [MITM]
-hostname = %APPEND% *.google.cn, *.google.cn, *.google.com.hk
+hostname = %APPEND% www.google.cn, www.google.cn, www.google.com.hk

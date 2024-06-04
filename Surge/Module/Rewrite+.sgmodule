@@ -23,4 +23,4 @@ URL-REGEX,^https://goblin\.hupu\.com/[^/]+/[^/]+/interfaceAd/, REJECT
 ^https:\/\/(www\.)?javbus\.com\/ header-replace Accept-Language de,en-US;q=0.7,en;q=0.3
 
 [MITM]
-hostname = %APPEND% goblin.hupu.com, *.maxmind.com, *.google.com.hk, *.g.cn, *.google.cn, *.google.co.jp
+hostname = %APPEND% goblin.hupu.com, *.maxmind.com, www.google.com.hk, www.g.cn, www.google.cn, www.google.co.jp

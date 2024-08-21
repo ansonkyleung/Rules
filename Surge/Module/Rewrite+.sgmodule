@@ -18,9 +18,30 @@ URL-REGEX,^https://goblin\.hupu\.com/[^/]+/[^/]+/interfaceAd/, REJECT
 # > 强制跳转
 # ^https:\/\/www\.google\.com\.hk\/ https://www.google.com/ncr 302
 
+# > 网易云音乐去广告
+^http:\/\/ipv4\.music\.163\.com\/e?api\/ad\/loading\/current - reject
+^https?:\/\/interface(\d)?\.music\.163\.com\/w?e?api\/music\/partner\/picked\/user\/top - reject
+^https?:\/\/interface(\d)?\.music\.163\.com\/w?e?api\/lbs\/gpsStatus\/upload - reject
+^https?:\/\/interface(\d)?\.music\.163\.com\/w?e?api\/homepage\/daily\/song\/elf\/notice - reject
+^https?:\/\/interface(\d)?\.music\.163\.com\/w?e?api\/ad\/ - reject
+^https?:\/\/interface(\d)?\.music\.163\.com\/w?e?api\/sp\/flow - reject
+^https?:\/\/interface(\d)?\.music\.163\.com\/w?e?api\/ios\/upgrade - reject
+^https?:\/\/interface(\d)?\.music\.163\.com\/w?e?api\/link\/position\/show\/resource - reject
+^https?:\/\/interface(\d)?\.music\.163\.com\/w?e?eapi\/resource-exposure\/config - reject
+^https?:\/\/interface(\d)?\.music\.163\.com\/w?e?api\/search\/specialkeyword - reject
+^https?:\/\/interface(\d)?\.music\.163\.com\/w?e?api\/link\/scene\/show\/resource - reject
+^https?:\/\/interface(\d)?\.music\.163\.com\/w?e?api\/search\/default - reject
+^https?:\/\/interface(\d)?\.music\.163\.com\/w?e?api\/comment\/feed\/inserted - reject
+^https?:\/\/interface(\d)?\.music\.163\.com\/w?e?api\/v1\/content\/exposure\/comment - reject
+^https?:\/\/interface(\d)?\.music\.163\.com\/w?e?api\/search\/rcmd\/keyword - reject
+^https?:\/\/interface(\d)?\.music\.163\.com\/w?e?api\/search\/default\/keyword - reject
+^https?:\/\/interface(\d)?\.music\.163\.com\/w?e?api\/comment\/hotcomment\/collect - reject
+^https?:\/\/interface(\d)?\.music\.163\.com\/w?e?api\/resource-exposure\/activity\/config - reject
+^https?:\/\/interface(\d)?\.music\.163\.com\/w?e?api\/vipcenter/tspopup\/get - reject
+
 [Header Rewrite]
 # > JavBus 不弹登录
 ^https:\/\/(www\.)?javbus\.com\/ header-replace Accept-Language de,en-US;q=0.7,en;q=0.3
 
 [MITM]
-hostname = %APPEND% goblin.hupu.com, *.maxmind.com, www.google.com.hk, www.g.cn, www.google.cn, www.google.co.jp
+hostname = %APPEND% goblin.hupu.com, *.maxmind.com, www.google.com.hk, www.g.cn, www.google.cn, www.google.co.jp, interface*.music.163.com

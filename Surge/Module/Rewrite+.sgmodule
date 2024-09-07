@@ -39,6 +39,9 @@ URL-REGEX,^https://goblin\.hupu\.com/[^/]+/[^/]+/interfaceAd/, REJECT
 # ^https?:\/\/interface(\d)?\.music\.163\.com\/w?e?api\/resource-exposure\/activity\/config - reject
 # ^https?:\/\/interface(\d)?\.music\.163\.com\/w?e?api\/vipcenter/tspopup\/get - reject
 
+# > 讯飞输入法去广告
+^https?:\/\/imeclient\.openspeech\.cn\/adservice\/ - reject
+
 [Header Rewrite]
 # > JavBus 不弹登录
 ^https:\/\/(www\.)?javbus\.com\/ header-replace Accept-Language de,en-US;q=0.7,en;q=0.3

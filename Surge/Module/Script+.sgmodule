@@ -1,5 +1,5 @@
 #!name=Script +
-#!desc=该模块是个人收集的脚本，用于去广告、解锁VIP等功能。来源于网络，需要配置 CA 证书并启用 MitM 开关。
+#!desc=该模块是个人收集的脚本，用于去广告、解锁会员等功能。来源于网络，需要配置 CA 证书并启用 MitM 开关。
 #!system=ios
 
 [URL Rewrite]
@@ -23,9 +23,6 @@ http-response ^https?:\/\/iap\.etm\.tech\/receipts$ requires-body=1,max-size=0,s
 
 # > AdGuard Premium
 http-response ^https?:\/\/mobile-api\.adguard\.org\/api\/.+\/ios_validate_receipt requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/yqc007/QuantumultX/master/AdGuardProCrack.js
-
-# > Flightradar24 GOLD
-Flightradar24 GOLD = type=http-response,pattern=^https://mobile.flightradar24.com/mobile/(user-session|subscribe),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/kikoxvx/Surge/Script/Flightradar24.js
 
 # > 小红书去广告
 开屏广告 = type=http-response,pattern=^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d\/system_service\/splash_config,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ddgksf2013/Scripts/master/redbook_json.js
@@ -79,4 +76,4 @@ SVIP提醒推广 = type=http-response, pattern=^https?:\/\/starplucker\.cyapi\.c
 评论区插入推广 =type=http-response, pattern=^https?:\/\/interface(\d)?\.music\.163\.com\/e?api\/batch, script-path=https://gist.githubusercontent.com/ddgksf2013/4f53b7c6083678df25fecc8ff68b52c4/raw/netease.adblock.js, requires-body=true, max-size=-1, timeout=60
 
 [MITM]
-hostname = %APPEND% api.revenuecat.com, iap.etm.tech, *.adguard.org, mobile.flightradar24.com, edith.xiaohongshu.com, www.xiaohongshu.com, pages.xiaohongshu.com, referee.xiaohongshu.com, wrapper.cyapi.cn, api.caiyunapp.com, starplucker.cyapi.cn, ad.cyapi.cn, biz.cyapi.cn, interface*.music.163.com
+hostname = %APPEND% api.revenuecat.com, iap.etm.tech, *.adguard.org, edith.xiaohongshu.com, www.xiaohongshu.com, pages.xiaohongshu.com, referee.xiaohongshu.com, wrapper.cyapi.cn, api.caiyunapp.com, starplucker.cyapi.cn, ad.cyapi.cn, biz.cyapi.cn, interface*.music.163.com
